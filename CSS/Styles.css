@@ -9,15 +9,33 @@ background-color: #2a2a2a;
 min-height: 60px;
 }
 
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
 .navbar-brand-image{
   max-width: 50px;
   max-height: 50px;
 }
 
 
+.center-content-flex{
+  align-items: center;
+  justify-content: center;
+}
+
 .services{
   min-height: 300px;
 }
+
+.slider-indicators{
+  color: black;
+}
+
 
 :root {
   
