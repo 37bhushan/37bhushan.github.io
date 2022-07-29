@@ -26,6 +26,18 @@ min-height: 60px;
 .center-content-flex{
   align-items: center;
   justify-content: center;
+
+
+}
+
+@media (max-width: 1000px) {
+  .center-content-mobile-only {
+
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .services{
