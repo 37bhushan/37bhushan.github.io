@@ -18,7 +18,7 @@
     <link rel=stylesheet type="text/css" href="CSS/Styles.css?v=1">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" >
 
 </head>
 
@@ -35,15 +35,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mt-4 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
 
                 </ul>
@@ -55,7 +55,7 @@
         </div>
     </nav>
     <main>
-        <div class="m-0 p-0 w-100 hero-background">
+        <div class="m-0 p-0 w-100 hero-background" id="home">
             <div class="container col-xxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5 center-content-flex">
                     <div class="col-10 col-sm-12 col-lg-6">
@@ -143,7 +143,7 @@
             </div>
         </div>
 
-        <div class="m-0 p-0 w-100 about-grahita-background">
+        <div class="m-0 p-0 w-100 about-grahita-background" id="about">
             <div class="row mt-3">
                 <div class="col-12 ml-auto">
                     <h2 class="featurette-heading text-center">THOUGHT BEHIND GRAHITA</span>
@@ -299,47 +299,10 @@
             </div>
         </div>
 
-        <div class="m-0 p-0 w-100 getstarted-background">
-            <div class="row mt-3">
-                <div class="col-12 ml-auto">
-                    <h2 class="featurette-heading text-center">CONTACT US</span>
-                </div>
-            </div>
-            <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-                <div class="row align-items-center g-lg-5 py-5">
-                    <div class="col-lg-7 text-center text-lg-start">
-                        <h3 class="fw-bold lh-1 mb-3">Request Callback</h3>
-                        <p class="col-lg-10 fs-4"><i>It only takes few clicks to get started ..</i></p>
-                    </div>
-                    <div class="col-md-10 mx-auto col-lg-5">
-                        <form class="p-4 p-md-5 border rounded-3 bg-light">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="name" placeholder="John" autocomplete="off">
-                                <label for="name">Name</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="contactNumber" placeholder="+91 98552336xx">
-                                <label for="contactNumber">Contact Number</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="description"
-                                    placeholder="Brief description of your problem"> </textarea>
-                                <label for="description">Description</label>
-                            </div>
-                            <button class="w-100 btn btn-lg btn-secondary" id="submit" type="submit">Get
-                                Started</button>
-                            <hr class="my-4">
-                            <small class="text-muted">By clicking Get Started, you agree to the terms of use.</small>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="m-0 p-0 w-100 user-reviews">
             <div class="row mt-3">
                 <div class="col-12 ml-auto">
-                    <h2 class="featurette-heading text-center mb-3">USER EXPERIENCE</span>
+                    <h2 class="featurette-heading text-center mb-3">TESTIMONIALS</span>
                 </div>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -406,10 +369,47 @@
 
         </div>
 
+        <div class="m-0 p-0 w-100 getstarted-background" id="contact">
+            <div class="row mt-3">
+                <div class="col-12 ml-auto">
+                    <h2 class="featurette-heading text-center">CONTACT US</span>
+                </div>
+            </div>
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+                <div class="row align-items-center g-lg-5 py-5">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <h3 class="fw-bold lh-1 mb-3">Request Callback</h3>
+                        <p class="col-lg-10 fs-4"><i>It only takes few clicks to get started ..</i></p>
+                    </div>
+                    <div class="col-md-10 mx-auto col-lg-5">
+                        <form class="p-4 p-md-5 border rounded-3 bg-light">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="John" autocomplete="off">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="contactNumber" placeholder="+91 98552336xx">
+                                <label for="contactNumber">Contact Number</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="description"
+                                    placeholder="Brief description of your problem"> </textarea>
+                                <label for="description">Description</label>
+                            </div>
+                            <button class="w-100 btn btn-lg btn-secondary" id="submit" type="submit">Get
+                                Started</button>
+                            <hr class="my-4">
+                            <small class="text-muted">By clicking Get Started, you agree to the terms of use.</small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row px-4 py-5">
             <div class="row mt-3">
                 <div class="col-12 ml-auto">
-                    <h2 class="featurette-heading text-center">Locate Us</span>
+                    <h2 class="featurette-heading text-center">LOCATE US</span>
                 </div>
             </div>
             <iframe
