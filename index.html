@@ -18,12 +18,13 @@
     <link rel=stylesheet type="text/css" href="CSS/Styles.css?v=1">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" >
+    <!-- is not used yet -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" > -->
 
 </head>
 
 
-<body class="container-fluid">
+<body class="container-fluid p-0">
     <nav class="row navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="Images/grahita-01.png" alt="" class="navbar-brand-image">
@@ -76,12 +77,12 @@
         </div>
 
         <div class="m-0 p-0 w-100 services-background">
-            <div class="row mt-3">
-                <div class="col-12 ml-auto">
+                     <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
                     <h2 class="featurette-heading text-center">WHAT WE DO</span>
                 </div>
             </div>
-            <div class="container px-4 py-5" id="icon-grid">
+            <div class="container px-4 py-5 mt-0" id="icon-grid">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
                     <div class="col d-flex align-items-center">
                         <div class="card services">
@@ -144,55 +145,58 @@
         </div>
 
         <div class="m-0 p-0 w-100 about-grahita-background" id="about">
-            <div class="row mt-3">
-                <div class="col-12 ml-auto">
+                     <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
                     <h2 class="featurette-heading text-center">THOUGHT BEHIND GRAHITA</span>
                 </div>
             </div>
-            <div class="container col-xxl-8 px-4 py-5">
+            <div class="container col-xxl-8 px-4 py-5 mt-0">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5 center-content-flex">
                     <div class="col-10 col-sm-12 col-lg-6 mx-auto">
                         <!-- <img src="Images/grahita-01.png" class="d-block mx-lg-auto img-fluid" alt="grahita alt"
-                            width="600" height="400" loading="lazy"> --> 
-                            <div id="grahita-studio-gallery" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="0"
-                                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="1"
-                                        aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="2"
-                                        aria-label="Slide 3"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="Images/grahita-01.png" class="d-block mx-lg-auto img-fluid" alt="grahita alt"
-                                        width="600" height="400" loading="lazy">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="Images/everton-vila-AsahNlC0VhQ-unsplash.jpg" class="d-block mx-lg-auto img-fluid" alt="grahita alt"
-                                        width="600" height="400" loading="lazy">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="Images/marco-cbosio-uhracfQshK4-unsplash.jpg" class="d-block mx-lg-auto img-fluid" alt="grahita alt"
-                                        width="600" height="400" loading="lazy">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#grahita-studio-gallery"
-                                    data-bs-slide="prev">
-                                    <span class="fas fa-chevron-circle-left slider-indicators" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#grahita-studio-gallery"
-                                    data-bs-slide="next">
-                                    <span class="fas fa-chevron-circle-right slider-indicators" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+                            width="600" height="400" loading="lazy"> -->
+                        <div id="grahita-studio-gallery" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#grahita-studio-gallery" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
                             </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Images/grahita-01.png" class="d-block mx-lg-auto img-fluid"
+                                        alt="grahita alt" width="600" height="400" loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/everton-vila-AsahNlC0VhQ-unsplash.jpg"
+                                        class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="600" height="400"
+                                        loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Images/marco-cbosio-uhracfQshK4-unsplash.jpg"
+                                        class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="600" height="400"
+                                        loading="lazy">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#grahita-studio-gallery"
+                                data-bs-slide="prev">
+                                <span class="fas fa-chevron-circle-left slider-indicators" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#grahita-studio-gallery"
+                                data-bs-slide="next">
+                                <span class="fas fa-chevron-circle-right slider-indicators" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
 
                     </div>
                     <div class="col-lg-6">
                         <h3 class="fw-bold lh-1 mb-3 center-content-mobile-only">Grahita: As within, so without</h3>
-                        <p class="lead center-content-mobile-only"><i>Grahita in Sanskrit means receptor, the one who recieves, accepts.
+                        <p class="lead center-content-mobile-only"><i>Grahita in Sanskrit means receptor, the one who
+                                recieves, accepts.
                                 People need someone who can listen.
                                 Grahita, as a psychological assistance is committed towards being an active listener and
                                 serves the society by doing the best.
@@ -215,12 +219,12 @@
         </div>
 
         <div class="m-0 p-0 w-100 about-aditee-background">
-            <div class="row mt-3">
-                <div class="col-12 ml-auto">
+                     <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
                     <h2 class="featurette-heading text-center">MEET THE FOUNDER</span>
                 </div>
             </div>
-            <div class="container col-xxl-8 px-4 py-5">
+            <div class="container col-xxl-8 px-4 py-5 mt-0">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5 center-content-flex">
                     <div class="col-10 col-sm-12 col-lg-6">
                         <img src="https://via.placeholder.com/500"
@@ -237,13 +241,13 @@
             </div>
         </div>
 
-        <div class="m-0 p-0 w-100 services-background">
-            <div class="row mt-3">
-                <div class="col-12 ml-auto">
+        <div class="m-0 p-0 w-100 how-it-works-background">
+                     <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
                     <h2 class="featurette-heading text-center">HOW IT WORKS ?</span>
                 </div>
             </div>
-            <div class="container px-4 py-5" id="icon-grid">
+            <div class="container px-4 py-5 mt-0" id="icon-grid">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
                     <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center">
                         <div class="card services">
@@ -253,7 +257,8 @@
                                         class="center-block d-block mx-auto mb-3 " alt="grahita alt" alt="grahita alt"
                                         width="100" height="100" loading="lazy">
                                     <h4 class="fw-bold mb-0 text-center">Request a callback</h4>
-                                    <p class="mt-2 text-center">Paragraph of text beneath the heading to explain the heading.</p>
+                                    <p class="mt-2 text-center">Paragraph of text beneath the heading to explain the
+                                        heading.</p>
                                 </div>
                             </div>
                         </div>
@@ -266,7 +271,8 @@
                                         class="center-block d-block mx-auto mb-3 " alt="grahita alt" alt="grahita alt"
                                         width="100" height="100" loading="lazy">
                                     <h4 class="fw-bold mb-0 text-center">Get familiarized with the process </h4>
-                                    <p class="mt-2 text-center">Paragraph of text beneath the heading to explain the heading.</p>
+                                    <p class="mt-2 text-center">Paragraph of text beneath the heading to explain the
+                                        heading.</p>
                                 </div>
                             </div>
                         </div>
@@ -279,7 +285,8 @@
                                         class="center-block d-block mx-auto mb-3 " alt="grahita alt" alt="grahita alt"
                                         width="100" height="100" loading="lazy">
                                     <h4 class="fw-bold mb-0 text-center">Attend your first appointment</h4>
-                                    <p class="mt-2 text-center">Paragraph of text beneath the heading to explain the heading.</p>
+                                    <p class="mt-2 text-center">Paragraph of text beneath the heading to explain the
+                                        heading.</p>
                                 </div>
                             </div>
                         </div>
@@ -300,12 +307,12 @@
         </div>
 
         <div class="m-0 p-0 w-100 user-reviews">
-            <div class="row mt-3">
-                <div class="col-12 ml-auto">
+                     <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
                     <h2 class="featurette-heading text-center mb-3">TESTIMONIALS</span>
                 </div>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide mt-0" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -316,7 +323,7 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="card services">
+                        <div class="card services testimonials-card">
                             <div class="card-body text-center">
                                 <div>
                                     <img src="https://via.placeholder.com/500" class="center-block d-block mx-auto"
@@ -329,7 +336,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="card services">
+                        <div class="card services testimonials-card">
                             <div class="card-body text-center">
                                 <div>
                                     <img src="https://via.placeholder.com/500" class="center-block d-block mx-auto"
@@ -342,7 +349,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="card services">
+                        <div class="card services testimonials-card">
                             <div class="card-body text-center">
                                 <div>
                                     <img src="https://via.placeholder.com/500" class="center-block d-block mx-auto"
@@ -370,12 +377,12 @@
         </div>
 
         <div class="m-0 p-0 w-100 getstarted-background" id="contact">
-            <div class="row mt-3">
-                <div class="col-12 ml-auto">
+                     <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
                     <h2 class="featurette-heading text-center">CONTACT US</span>
                 </div>
             </div>
-            <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5 mt-0">
                 <div class="row align-items-center g-lg-5 py-5">
                     <div class="col-lg-7 text-center text-lg-start">
                         <h3 class="fw-bold lh-1 mb-3">Request Callback</h3>
@@ -406,9 +413,9 @@
             </div>
         </div>
 
-        <div class="row px-4 py-5">
-            <div class="row mt-3">
-                <div class="col-12 ml-auto">
+        <div class="row px-4 py-5 locate-us-background">
+                     <div class="row mt-0 pt-0">
+                <div class="col-12 ml-auto mt-3 pt-3">
                     <h2 class="featurette-heading text-center">LOCATE US</span>
                 </div>
             </div>

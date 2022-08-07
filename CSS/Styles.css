@@ -9,6 +9,43 @@ background-color: #2a2a2a;
 min-height: 60px;
 }
 
+
+.hero-background{
+background-color: #fffefc;
+}
+
+.services-background{
+  background-color: #a9e0d0;
+}
+
+.about-grahita-background{
+  background-color: #fffefc;
+
+}
+
+.about-aditee-background{
+  background-color: #fcf836;
+
+}
+
+.how-it-works-background{
+  background-color: #35d4da;
+}
+
+.user-reviews{
+  background-color: #fffefc;
+
+}
+
+.getstarted-background{
+  background-color: #b4baeb;
+
+}
+
+.locate-us-background{
+  background-color: #fffefc;
+}
+
 .fixed-top{
   position: fixed;
   top: 0;
@@ -48,6 +85,9 @@ min-height: 60px;
   color: black;
 }
 
+/* .testimonials-card{
+  background-color: #fcf836
+} */
 
 :root {
   
