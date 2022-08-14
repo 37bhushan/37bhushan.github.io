@@ -16,10 +16,15 @@
     cursor: default;
 }
 
+.navbar-brand-image{
+  max-width: 25px !important;
+  max-height: 25px !important;
+}
+
 .triangle {
   width: 60px;
   height: 30px;
-  border-top: solid 30px rgb(255, 255, 255);
+  border-top: solid 30px #fffefc;
   border-left: solid 30px transparent;
   border-right: solid 30px transparent;
 }
@@ -30,11 +35,12 @@
 }
 
 .default-background{
-  background-color: #fffefc;
+  background-color: #ffffff;
 }
 
 body{
   background-color: #fffefc;
+  /* color: #222222; */
 }
 
 .footer-background{
@@ -56,7 +62,7 @@ min-height: 90vh;
 }
 
 .about-grahita-background{
-  background-color: #fffbf3;
+  background-color: #fffefc;
   min-height: 90vh;
 }
 
@@ -76,7 +82,7 @@ min-height: 90vh;
 }
 
 .getstarted-background{
-  background-color: #ffd6aa;
+  background-color: #a9e0d0;
   min-height: 90vh;
 }
 
@@ -86,7 +92,7 @@ min-height: 90vh;
 }
 
 .user-reviews-header{
-  color: #fffefc;
+  color: #f9f9f9;
 }
 
 .fixed-top{
@@ -97,35 +103,78 @@ min-height: 90vh;
   z-index: 10;
 }
 
+.sticky{
+  position: -webkit-sticky;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2.5rem;
+  margin-bottom: 2.5rem; 
+  z-index: 12;
+}
+
 .navbar-brand-image{
   max-width: 50px;
   max-height: 50px;
 }
-
-
 .center-content-flex{
   align-items: center;
   justify-content: center;
+}
 
+.navbar-brand-image-custom{
+  margin-left: 0.5rem;
+}
 
+.navbar-brand-items-main-custom{
+  margin-right: 0.6rem;;
+}
+
+.go-to-top-button{
+  background-color: #3e3e3e;
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.go-to-top-icon{
+  color: #fffefc;
+}
+
+.go-to-top-text{
+  font-size: 10px;
+  color: #f9f9f9;
 }
 
 @media (max-width: 1000px) {
   .center-content-mobile-only {
-
-
     align-items: center;
     justify-content: center;
     text-align: center;
+  }  
+  .navbar-brand-items-custom{
+    margin-left: 2.2rem;
   }
 }
 
 .services{
-  min-height: 300px;
+  min-height: 350px;
 }
 
 .slider-indicators{
   color: black;
+}
+
+.socials a{
+  color :#1e1e1e;
+  text-decoration: none;
+  }
+
+.socials a:hover{
+color :#1e1e1e;
+}
+
+.socials a{
+  margin-right: 1rem;
 }
 
 /* .testimonials-card{

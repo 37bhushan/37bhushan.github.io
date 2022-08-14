@@ -27,24 +27,24 @@
 <body class="container-fluid p-0">
     <nav class="row navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="Images/grahita-01.png" alt="" class="navbar-brand-image">
+            <a class="navbar-brand" href="#"><img src="Images/grahita-logo.png" alt="" class="navbar-brand-image navbar-brand-image-custom">
                 <span>Grahita</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler mr-2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mt-4 mb-lg-0">
-                    <li class="nav-item mr-4">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <ul class="navbar-nav ms-auto mt-4 mb-lg-0 navbar-brand-items-main-custom">
+                    <li class="nav-item navbar-brand-items-custom">
+                        <a class="nav-link active nav-link-custom" aria-current="page" href="#home">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                    <li class="nav-item navbar-brand-items-custom">
+                        <a class="nav-link nav-link-custom" href="#about">About</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                    <li class="nav-item navbar-brand-items-custom">
+                        <a class="nav-link nav-link-custom" href="#contact">Contact</a>
                     </li>
 
                 </ul>
@@ -56,26 +56,34 @@
         </div>
     </nav>
     <main>
-
         <div class="m-0 p-0 w-100 hero-background" id="home">
             <div class="container col-xxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5 center-content-flex">
                     <div class="col-10 col-sm-12 col-lg-6">
-                        <img src="Images/grahita-01.png" class="d-block mx-xs-auto mx-lg-auto img-fluid"
-                            alt="grahita alt" width="600" height="400" loading="lazy">
+                        <img src="Images/grahita-01.png" class="d-block mx-xs-auto mx-lg-auto img-fluid" alt="grahita alt" width="600" height="400" loading="lazy">
                     </div>
                     <div class="col-lg-6">
-                        <h1 class="display-5 fw-bold lh-1 mb-3 typewriter text-center"><span class="m-0 p-0"
-                                data-text="WORRIED?,ANXIOUS?,DEPRESSED?,FEELING LOW?"></span></h1>
+                        <h1 class="display-5 fw-bold lh-1 mb-3 typewriter text-center"><span class="m-0 p-0" data-text="WORRIED?,ANXIOUS?,DEPRESSED?,FEELING LOW?">FEELING LO</span></h1>
                         <p class="lead text-center"><i>It only takes few clicks to get started...</i></p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-middle center-content-flex">
-                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Schedule A
+                            <a href="#contact"> 
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Schedule A
                                 Consultation</button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="div-overalp sticky">            
+            <a href="#home">
+                <button type="button" class="btn btn-outline-secondary btn-sm go-to-top-button">
+                    <i class="fas fa-chevron-circle-up go-to-top-icon"></i>
+                    <!-- <div class="go-to-top-text">Back to top</div> -->
+                </button>
+            </a>
+        </div>  
 
         <div class="w-100 d-flex justify-content-center div-overalp">
             <div class="triangle"></div>
@@ -175,12 +183,12 @@
                                         alt="grahita alt" width="600" height="400" loading="lazy">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="Images/everton-vila-AsahNlC0VhQ-unsplash.jpg"
+                                    <img src="https://lorempokemon.fakerapi.it/pokemon/200/1820"
                                         class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="600" height="400"
                                         loading="lazy">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="Images/marco-cbosio-uhracfQshK4-unsplash.jpg"
+                                    <img src="https://lorempokemon.fakerapi.it/pokemon/200/1870"
                                         class="d-block mx-lg-auto img-fluid" alt="grahita alt" width="600" height="400"
                                         loading="lazy">
                                 </div>
@@ -288,7 +296,7 @@
 
                         <div>
                             <div class="img">
-                                <img src="https://lorempokemon.fakerapi.it/pokemon/200/1234">
+                                <img src="https://lorempokemon.fakerapi.it/pokemon/200/556">
                             </div>
                             <h2>Another Parent</h2>
                             <p>You will see my experience here. Trust me.
@@ -477,8 +485,35 @@
             <div class="container col-xl-10 col-xxl-8 px-4 py-5 mt-0">
                 <div class="row align-items-center g-lg-5 py-5">
                     <div class="col-lg-7 text-center text-lg-start">
-                        <h3 class="fw-bold lh-1 mb-3">Request Callback</h3>
-                        <p class="col-lg-10 fs-4"><i>It only takes few clicks to get started ..</i></p>
+                        <div class="row m-0 p-0">
+                            <div class="col">
+                                <h3 class="fw-bold lh-1 mb-3">Request Callback</h3>
+                                <p class="col-lg-10 fs-4"><i>It only takes few clicks to get started ..</i></p>
+                            </div>
+                        </div>
+                        <hr class="mt-4 mb-4">
+                        <div class="row m-0 p-0 mb-3">
+                            <div class="col">
+                                <h5 class="fw-bold lh-1 mb-3">Connect on social media</h3>
+                                <p class="col-lg-10 socials">
+                                  <a href="https://www.facebook.com/37bhushan" target="_blank" class="mr-4">
+                                    <span><i class="fab fa-facebook"></i></span>
+                                  </a>  
+                                  
+                                  <a href="https://www.instagram.com/37bhushan" target="_blank" class="mr-4 ml-4">
+                                    <span><i class="fab fa-instagram"></i></span>
+                                  </a>  
+
+                                  <a href="https://wa.me/00000316" target="_blank" class="mr-4 ml-4">
+                                    <span><i class="fab fa-whatsapp"></i></span>
+                                  </a>  
+
+                                  <a href="https://www.telegram.me/kenadams069" target="_blank" class="mr-4 ml-4">
+                                    <span><i class="fab fa-telegram"></i></span>
+                                  </a>  
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-10 mx-auto col-lg-5">
                         <form class="p-4 p-md-5 border rounded-3 shadow default-background">
@@ -507,7 +542,7 @@
 
         <div class="row px-4 py-5 locate-us-background">
             <div class="row mt-0 pt-0">
-                <div class="col-12 ml-auto mt-3 pt-3">
+                <div class="col-12 ml-auto mt-3 pt-3 pb-4">
                     <h2 class="featurette-heading text-center">LOCATE US</span>
                 </div>
             </div>
