@@ -156,3 +156,18 @@ window.onload = function() {
 
 
 
+//Submit request -- sened message on whatsapp
+function  SubmitRequest(){
+    let name = document.getElementById("name").value; 
+    let message = document.getElementById("description").value; 
+    if(name && message)
+    {
+        window.open("https://wa.me/000333?text=Name: "+name+", \n Message: " + message,"_blank");
+    }
+    else
+    {
+        alert("Please enter valid name and description");
+    }
+    
+}
+
