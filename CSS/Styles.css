@@ -43,6 +43,10 @@ body{
   /* color: #222222; */
 }
 
+.navbar-background{
+  background-color: #fffefc !important;
+}
+
 .footer-background{
 color: #989898;
 background-color: #2a2a2a;
