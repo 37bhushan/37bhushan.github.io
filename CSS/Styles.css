@@ -210,6 +210,10 @@ opacity: 0.73;
 }
 
 
+.row{
+  --bs-gutter-x : 0rem !important;
+}
+
 /*
 
 scaled images
