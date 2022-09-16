@@ -16,6 +16,10 @@
     cursor: default;
 }
 
+body{
+  color: #444d56;
+}
+
 .navbar-brand-image{
   max-width: 25px !important;
   max-height: 25px !important;
@@ -32,6 +36,12 @@
 .div-overalp{
   z-index: 9;
   position: absolute;
+}
+
+.section-content-padding
+{
+  padding-bottom: 3rem !important;
+  padding-top: 2rem !important;
 }
 
 .default-background{
@@ -68,17 +78,17 @@ min-height: 90vh;
 
 .about-grahita-background{
   background-color: #fffefc;
-  min-height: 90vh;
+  /* min-height: 90vh; */
 }
 
 .about-aditee-background{
   background-color: #fffefc;
-  min-height: 90vh;
+  /* min-height: 90vh; */
 }
 
 .how-it-works-background{
   background-color: #fffefc;
-  min-height: 90vh;
+  /* min-height: 90vh; */
 }
 
 .user-reviews{
@@ -88,12 +98,12 @@ min-height: 90vh;
 
 .getstarted-background{
   background-color: #add5e1;
-  min-height: 90vh;
+  /* min-height: 90vh; */
 }
 
 .locate-us-background{
   background-color: #fffefc;
-  min-height: 90vh;
+  /* min-height: 90vh; */
 }
 
 .user-reviews-header{
@@ -191,6 +201,13 @@ color :#353535;
 } */
 
 
+.how-it-works-icons {
+opacity: 0.73;
+}
+
+.align-self-middle-top{
+  align-self: baseline;;
+}
 
 
 /*
@@ -203,3 +220,4 @@ scaled images
 
 
 /**/
+
