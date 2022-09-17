@@ -210,9 +210,13 @@ opacity: 0.73;
 }
 
 
-.row{
-  --bs-gutter-x : 0rem !important;
-}
+@media (max-width: 1000px) {
+  .row{
+    --bs-gutter-x : 0rem !important;
+  } 
+  }
+
+
 
 /*
 
