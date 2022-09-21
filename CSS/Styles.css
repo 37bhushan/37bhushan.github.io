@@ -174,8 +174,16 @@ min-height: 90vh;
 }
 
 .services{
-  min-height: 350px;
+  min-height: 360px;
+  min-width: 300px;
 }
+
+@media (max-width: 1000px) {
+  .services{
+    min-width: 90vw;
+  }
+}
+
 
 .slider-indicators{
   color: black;
@@ -218,6 +226,13 @@ opacity: 0.73;
   } 
   }
 
+
+.services-explaination-text
+{
+  font-style: italic;
+  opacity: .9;
+  font-size: .9rem;
+}
 
 
 /*
