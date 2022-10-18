@@ -145,6 +145,15 @@ testim {
     margin: auto;
   }
   
+
+
+@media (max-width: 1000px) {
+  .testim-paragraph{
+    min-height: 300px;
+  }
+  }
+
+
   .testim .cont div.active .img img {
     -webkit-animation: testim-show .5s ease-in-out forwards;            
     -moz-animation: testim-show .5s ease-in-out forwards;            

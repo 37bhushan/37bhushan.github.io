@@ -16,6 +16,9 @@
     cursor: default;
 }
 
+image{
+  background-color:  transparent !important;
+}
 
 body{
   color: #444d56;
@@ -233,6 +236,28 @@ opacity: 0.73;
   opacity: .9;
   font-size: .9rem;
 }
+
+
+
+/*
+stacked images
+*/
+/* .stacked-img-background {
+  position: relative;
+  background-image: url(Images/Services/Circles-text.png);
+  background-position: center;
+  background-size: cover; } */
+
+/* .stacked-img-foreground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  display: block;
+  margin: auto; } */
+
 
 
 /*
