@@ -134,7 +134,7 @@ testim {
   
   .testim .cont div h2 {
     color: #ea830e;
-    font-size: 1em;
+    font-size: 1.35em;
     margin: 15px 0;
   }
   
@@ -146,10 +146,18 @@ testim {
   }
   
 
+.testim-paragraph
+{
+  quotes: '“' '”';
+  font-style: italic;
+}
+
 
 @media (max-width: 1000px) {
   .testim-paragraph{
     min-height: 300px;
+    quotes: '“' '”';
+    font-style: italic; 
   }
   }
 
