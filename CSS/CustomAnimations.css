@@ -34,11 +34,25 @@
 
   .animation-flip
   {
-    animation:  flip 2s;
+    animation:  flip 8s;
     animation-iteration-count: infinite;
   }
 
   @keyframes flip {
-    100% { transform: scaleY(-1); }
     0% { transform: scaleY(1); }
+    30% { transform: scaleY(1); }
+    40% { transform: scaleY(-1); }
+    60% { transform: scaleY(-1); }
+    70% { transform: scaleY(-1); }
+    100% { transform: scaleY(1); }
+  }
+
+  .animation-x-flip
+  {
+    animation : x-flip 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes x-flip {
+    100% { transform: scaleX(-1); }
   }
